@@ -38,11 +38,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   
    if ((event.body.toLowerCase() == "ওই কিরে") || (event.body.toLowerCase() == "oi kire") ||(event.body.toLowerCase() == "Oii kire") || (event.body.toLowerCase() == "...")) {
      return api.sendMessage("মধু মধু রসমালাই 🙂", threadID);
-   };
+   }; 
 
    if ((event.body.toLowerCase() == "bc") || (event.body.toLowerCase() == "mc")) {
      return api.sendMessage("SAME TO YOU 😊 ", threadID);
-   };
+   }; 
 
    if ((event.body.toLowerCase() == "🫦") || (event.body.toLowerCase() == "💋")) {
      return api.sendMessage("কিরে হালা লুচ্চা, এগুলো কি ইমুজি দেস ।", threadID);
